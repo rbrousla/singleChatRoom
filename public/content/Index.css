@@ -1,62 +1,64 @@
+/* singleChatRoom Index.css */
+
 body {
-background-color:hsla(97,40%,50%,0.1)
+    background-color:hsla(97,40%,50%,0.1)
 }
 
 .userContainer {
-position:absolute;
-float:left;
-width:200px;
-border-right:1px solid black;
-height:600px;
-padding:10px;
-overflow:auto;
-display:block;
-border:1px solid silver;
-background-color:hsla(97,40%,50%,1);
+    position:absolute;
+    float:left;
+    width:200px;
+    border-right:1px solid black;
+    height:600px;
+    padding:10px;
+    overflow:auto;
+    display:block;
+    border:1px solid silver;
+    background-color:hsla(97,40%,50%,1);
 }
 
 h2 {
-position:absolute;
-top:-20px;
-left:0px;
-display:block;
-border:3px solid silver;
-width:97.5%;
-height:35px;
-text-align:center;
-padding-top:15px;
-background-color:hsla(97, 20%,50%,1);
-color:hsla(73,100%,19%,1);
-border-radius:4px 4px 4px 4px;
+    position:absolute;
+    top:-20px;
+    left:0px;
+    display:block;
+    border:3px solid silver;
+    width:97.5%;
+    height:35px;
+    text-align:center;
+    padding-top:15px;
+    background-color:hsla(97, 20%,50%,1);
+    color:hsla(73,100%,19%,1);
+    border-radius:4px 4px 4px 4px;
 }
 
 #users{
-position:absolute;
-top:60px;
+    position:absolute;
+    top:60px;
 }
 
 .conversationContainer {
-position:absolute;
-left:240px;
-width:700px;
-height:600px;
-overflow:auto;
-padding: 10px;
-display:block;
-border:1px solid silver;
-background-color:hsla(97,40%,50%,0.5);
+    position:absolute;
+    left:240px;
+    width:700px;
+    height:600px;
+    overflow:auto;
+    padding: 10px;
+    display:block;
+    border:1px solid silver;
+    background-color:hsla(97,40%,50%,0.5);
 }
 
 input {
-position:absolute;
-bottom:10px;
+    position:absolute;
+    bottom:10px;
 }
 
 input[type="button"] {
-left:265px;
-width:100px;
+    left:265px;
+    width:100px;
 }
 
 #data {
-width:250px;
+    width:250px;
 }
