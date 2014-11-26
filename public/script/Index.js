@@ -15,7 +15,6 @@ function sendMessage() {
 }
 
 function processMessage(username, data) {
-    //$('<b>' + username + ': </b>' + data + '<br/>').insertAfter($('#conversation'));
 	$('<b>' + username + ': </b>' + data + '<br/>').insertBefore($('#conversation'));
 }
 

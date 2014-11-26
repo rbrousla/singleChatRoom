@@ -1,23 +1,24 @@
 <!-- singleChatClient client html5 file -->
 
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Private Chat Service</title>
-    <link rel="stylesheet" href="./content/Index.css" type="text/css"/>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<title>Private Chat Service</title>
+    <link rel="stylesheet" href="./css/Index.css" type="text/css"/>
     <script src="./script/jquery-1.11.1.min.js"></script>
     <script src="./script/socket.io.js"></script>
     <script src="./script/Index.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="userContainer">
-        <h2>USERS</h2>
-        <div id="users"></div>
+      <h2>USERS</h2>
+      <div id="users"></div>
     </div>
     <div class="conversationContainer">
-        <input type="text" id="data" />
-        <input type="button" id="dataSend" value="send" />
-        <div class="conversation" id="conversation"></div>
+      <input type="text" id="data" />
+      <input type="button" id="dataSend" value="send" />
+      <div class="conversation" id="conversation"></div>
     </div>
-</body>
+  </body>
 </html>
